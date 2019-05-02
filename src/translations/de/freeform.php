@@ -227,7 +227,7 @@ return [
     // "No field mapping specified for '{integration}' integration"                                                                                                                                                                                                                                             => "No field mapping specified for '{integration}' integration",
 
     // Files service
-    // 'Could not handle file upload'                                                                                                                                                                                                                                                                           => 'Could not handle file upload',
+    'Could not handle file upload'                                                                                                                                                                                                                                                                           => 'Fehler bei der verarbeitung',
 
 
     // Form service
