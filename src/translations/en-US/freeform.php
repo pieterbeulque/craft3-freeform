@@ -627,4 +627,7 @@ return [
     // Front End
     'Form has been submitted successfully!'                                                                                       => 'Form has been submitted successfully!',
     'Error! Please review the form and try submitting again.'                                                                     => 'Error! Please review the form and try submitting again.',
+
+    // reCAPTCHA
+    'Please verify that you are not a robot.' => 'Please verify that you are not a robot.',
 ];

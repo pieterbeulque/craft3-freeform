@@ -260,4 +260,7 @@ return [
     // Front End
     'Form has been submitted successfully!'                       => 'Formulier is succesvol verstuurd!',
     'Error! Please review the form and try submitting again.'     => 'Fout! Gelieve het formulier na te kijken en opnieuw te proberen.',
+
+    // reCAPTCHA
+    'Please verify that you are not a robot.' => 'Bevestig dat je geen robot bent.',
 ];
