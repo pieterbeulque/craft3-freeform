@@ -11,7 +11,7 @@
 
 return [
     // Layout
-    "This field is required"                                                                                                                                                                                                               => "Dit veld is verplicht",
+    "This field is required"                                                                                                                                                                                                               => "Dit veld is ongeldig",
     "Composer has no properties"                                                                                                                                                                                                           => "Composer heeft geen eigenschappen",
     "No composer data present"                                                                                                                                                                                                             => "Geen Composer data beschikbaar",
     "No context specified"                                                                                                                                                                                                                 => "Geen context gespecifiëerd",
@@ -220,7 +220,7 @@ return [
 
 
     // Email field
-    "{email} is not a valid email address"                                                                                                                                                                                                 => "{email} is geen geldig e-mail adres",
+    "{email} is not a valid email address"                                                                                                                                                                                                 => "Dit veld is ongeldig",
 
 
     // File Upload field

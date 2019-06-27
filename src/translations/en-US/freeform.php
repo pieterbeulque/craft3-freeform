@@ -63,7 +63,7 @@ return [
 
 
     // Layout
-    'This field is required'                                                                                                                                                                                                                                                                                 => 'This field is required',
+    'This field is required'                                                                                                                                                                                                                                                                                 => 'This field is invalid',
     'Composer has no properties'                                                                                                                                                                                                                                                                             => 'Composer has no properties',
     'No composer data present'                                                                                                                                                                                                                                                                               => 'No composer data present',
     'No context specified'                                                                                                                                                                                                                                                                                   => 'No context specified',
@@ -240,7 +240,7 @@ return [
 
 
     // Email field
-    '{email} is not a valid email address'                                                                                                                                                                                                                                                                   => '{email} is not a valid email address',
+    '{email} is not a valid email address'                                                                                                                                                                                                                                                                   => 'This field is invalid',
 
 
     // File Upload field
