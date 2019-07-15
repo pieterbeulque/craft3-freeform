@@ -11,7 +11,7 @@
 
 return [
     // Layout
-    "This field is required"                                                                                                                                                                                                               => "Dit veld is ongeldig",
+    "This field is required"                                                                                                                                                                                                               => "Dit veld is verplicht",
     "Composer has no properties"                                                                                                                                                                                                           => "Composer heeft geen eigenschappen",
     "No composer data present"                                                                                                                                                                                                             => "Geen Composer data beschikbaar",
     "No context specified"                                                                                                                                                                                                                 => "Geen context gespecifiëerd",

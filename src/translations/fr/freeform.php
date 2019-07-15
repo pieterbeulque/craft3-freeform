@@ -63,7 +63,7 @@ return [
 
 
     // Layout
-    'This field is required'                                                                                                                                                                                                                                                                                 => 'Ce champ n’est pas valide',
+    'This field is required'                                                                                                                                                                                                                                                                                 => 'Ce champ est obligatoire',
     // 'Composer has no properties'                                                                                                                                                                                                                                                                             => 'Composer has no properties',
     // 'No composer data present'                                                                                                                                                                                                                                                                               => 'No composer data present',
     // 'No context specified'                                                                                                                                                                                                                                                                                   => 'No context specified',
