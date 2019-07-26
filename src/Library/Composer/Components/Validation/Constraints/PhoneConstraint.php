@@ -37,43 +37,6 @@ class PhoneConstraint implements ConstraintInterface
     public function validate($value)
     {
         $violationList = new ConstraintViolationList();
-        $pattern       = $this->pattern;
-
-        if (null !== $pattern) {
-            $compiledPattern = $pattern;
-            $compiledPattern = preg_replace('/([\[\](){}$+_\-+])/', '\\\\$1', $compiledPattern);
-            preg_match_all('/(0+)/', $compiledPattern, $matches);
-
-            if (isset($matches[1])) {
-                foreach ($matches[1] as $match) {
-                    $compiledPattern = preg_replace(
-                        '/' . $match . '/',
-                        '[0-9]{' . \strlen($match) . '}',
-                        $compiledPattern,
-                        1
-                    );
-                }
-            }
-
-            $compiledPattern = '/^' . $compiledPattern . '$/';
-
-            try {
-                $valid = preg_match($compiledPattern, $value);
-            } catch (\Exception $e) {
-                $valid = false;
-            }
-
-            if (!$valid) {
-                $violationList->addError($this->message);
-            }
-
-            return $violationList;
-        }
-
-        if (!preg_match('/^\+?[0-9\- ,.\(\)]+$/', $value)) {
-            $violationList->addError('Phone number is invalid.');
-        }
-
         return $violationList;
     }
 }
